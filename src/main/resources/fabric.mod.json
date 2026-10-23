@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "leanframe",
+  "version": "${version}",
+  "name": "LeanFrame",
+  "description": "A small FPS toolkit: benchmark your game and lift the frame cap. Does not change how Minecraft looks.",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.leanframe.LeanFrame"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
