@@ -3,9 +3,9 @@
   "id": "leanframe",
   "version": "${version}",
   "name": "LeanFrame",
-  "description": "A small FPS toolkit: benchmark your game and lift the frame cap. Does not change how Minecraft looks.",
+  "description": "Vanilla-look FPS helper for weak PCs: invisible tweaks on the first start, plus /leanframe doctor, bench, compare, lowend, potato, uncap and restore. Does not touch rendering.",
   "authors": [
-    "You"
+    "LeanFrame"
   ],
   "license": "MIT",
   "environment": "client",
@@ -15,9 +15,11 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.19.5",
-    "minecraft": "~26.3",
-    "java": ">=25",
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=26.1",
+    "java": ">=21"
+  },
+  "recommends": {
     "fabric-api": "*"
   }
 }
